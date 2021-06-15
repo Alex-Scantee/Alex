@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+  int n, s;
+int main()
+{
+    cout << "Introduceti numarul n: ";
+    cin >> n;
+
+    while (n != 0)
+	{
+		s = s + n % 10; // se insumeaza pe rand cifrele lui n
+		n = n / 10; // se taie pe rand cate o cifra din n
+	}
+  cout << "Suma cifrelor lui n este: " << s;
+return 0;
+}
