@@ -1,0 +1,16 @@
+#include<iostream>
+
+int n, nr;
+
+int main()
+{
+    cout<<“n=”;
+    cin>>n;
+    while(n!=0)
+{
+  nr=nr+1;
+  n=n/10; 
+}
+    cout<<“Nr. de cifre=”<<nr;
+  return 0;
+}
