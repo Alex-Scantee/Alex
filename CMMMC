@@ -1,12 +1,15 @@
-#include<iostream.h>
+#include<iostream>
+
 int a,b,x,y;
-void main()
+
+int main()
 {
-cin>>x>>y;
-a=x; b=y;
-while(x!=y)
-if(x>y)
-x=x-y;
+    cin>>x>>y;
+  a=x; b=y;
+    while(x!=y)
+  if(x>y)
+    x=x-y;
 else y=y-x;
-cout<<“CMMC=”<<(a*b)/x;
+  cout<<“CMMC=”<<(a*b)/x;
+return 0;
 }
