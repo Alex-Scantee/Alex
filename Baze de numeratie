@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cmax = 0;
+  cin >> n >> b;
+    while(n)
+{
+   int cif= n % b;
+    if(cif > cmax)
+        cmax = cif;
+    n /= b;
+ return 0;
+}
