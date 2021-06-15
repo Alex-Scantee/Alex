@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int n, ogl, cn;
+
+int main()
+{
+  cout<<"Introduceti numarul n: ";
+     cin >> n;
+   cn=n;
+
+while (n != 0)
+	{
+		ogl = ogl * 10 + n % 10; // se inverseaza cifra cu cifra numarul n
+		n = n / 10; // se taie pe rand cifrele lui n
+	}
+
+if(cn==ogl)
+    cout<<"Numarul este palindrom";
+else
+    cout<<"Numarul nu este palindrom";
+return 0;
+}
