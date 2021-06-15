@@ -1,0 +1,24 @@
+#include<iostream>
+ 
+ int main()
+{
+int a,d,p;
+
+    cout<<“=a”;
+    cin>>a;
+  d=2;
+    while(a>1)
+{
+  p=0;
+    while(a%d==0)
+{
+  p=p+1;
+  a=a/d;
+}
+  if(p) // <=> if(p!=0)
+    cout<<d<<“^”<<p<<” “;
+  d++;
+}
+}
+  return 0;
+}
