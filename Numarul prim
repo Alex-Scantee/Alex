@@ -1,0 +1,20 @@
+#include<iostream>
+
+int n, ok, d;
+
+int main()
+{
+    cin>>n;
+  d=2; ok=1;
+    while(d<=n/2&&ok==1)
+  if(n%d==0)
+  ok=0;
+  else
+  d++;
+  if(ok==1)
+    cout<<“Prim”;
+  else
+    cout<<“Nu”;
+}
+  return 0;
+}
