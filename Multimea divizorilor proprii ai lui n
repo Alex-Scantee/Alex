@@ -1,0 +1,17 @@
+#include<iostream>
+
+int n,d;
+
+int main()
+{
+    cin>>n;
+  d=2;
+    while(d<=n/2)
+{
+  if(n%d==0)
+    cout<<d<<” “; 
+  d++;
+}
+}
+  return 0;
+{
